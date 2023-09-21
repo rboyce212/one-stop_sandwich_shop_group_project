@@ -1,0 +1,134 @@
+.all-sandwiches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  border: 1px solid black;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.sandwiches-cart {
+  display: grid;
+  grid-template-columns: 60fr 39fr;
+  grid-gap: 20px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.sandwich-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(211, 255, 255);
+}
+
+#food-image {
+  width: 100%;
+  height: auto;
+}
+
+.lower-menu-container-h2 {
+  font: rgb(4, 4, 199);
+}
+
+.category-name {
+  color: rgb(4, 4, 132);
+}
+
+#byo-button {
+  color: rgb(4, 4, 132);
+  font-weight: bold;
+  font-size: x-large;
+  border-width: 0;
+}
+
+.lower-menu-container {
+  display: flex;
+  grid-gap: 10px;
+  border: 1px solid black;
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.chips-div {
+  font: rgb(4, 4, 199);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(211, 255, 255);
+}
+
+#chips {
+  width: 100%;
+  height: auto;
+}
+
+.beverages-div {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(211, 255, 255);
+}
+
+#beverages {
+  width: 100%;
+  height: auto;
+}
+
+.h2-button {
+  text-align: center;
+}
+
+.css-button-gradient--5 {
+  min-width: 100px;
+  height: 30px;
+  color: #fff;
+  padding: 0px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #000428 0%, #004e92 75%);
+}
+.css-button-gradient--5:hover {
+  background-position: right center;
+}
+.css-button-gradient--5:active {
+  top: 2px;
+}
+
+#menu-title {
+  margin-top: 35x;
+  margin-bottom: 35x;
+}
+
+.css-button-gradient--4 {
+  min-width: 100px;
+  height: 30px;
+  color: #fff;
+  padding: 0px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #000428 0%, #004e92 75%);
+  left: 50%;
+  transform: translate(-50%);
+}

@@ -1,0 +1,161 @@
+body {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0%;
+}
+
+header {
+  background-color: gray;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  /* position: fixed;  */
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+div.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+img#logo {
+  display: grid;
+  place-items: center;
+}
+
+header {
+  background-color: gray;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  /* position: fixed;  */
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+/* .about-page {
+  /* background-image: url(https://thumbs.dreamstime.com/z/bodega-cat-new-york-city-common-corner-stores-where-earn-their-keep-hunting-rats-mice-81868715.jpg);
+    background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+} */
+
+div.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+div.total {
+  text-align: center;
+}
+
+p {
+  justify-content: center;
+}

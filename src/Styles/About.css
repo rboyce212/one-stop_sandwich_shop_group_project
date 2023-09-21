@@ -1,0 +1,38 @@
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-members > div {
+    margin: 10px;
+    flex: 1;
+    transition: transform 0.2s ease; /* Add a transition for smooth animation */
+}
+
+.team-member-card {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Hide overflowing content when scaled */
+    transform-origin: center bottom; /* Set the scaling origin */
+}
+
+#profile-img {
+    image-resolution: 300 x 300;
+    width: 100%;
+}
+
+.team-members > div:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.team-members > div:nth-child(even) {
+    align-self: flex-end;
+}
+
+/* Add hover effect to scale the card slightly */
+.team-members > div:hover {
+    transform: scale(1.05); /* Scale up by 5% */
+}
